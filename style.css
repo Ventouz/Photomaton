@@ -1,0 +1,95 @@
+.img{
+    background-size: contain;
+}
+
+.bouton {
+    width:45px;
+    height:45px;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+}
+
+.icon{
+    width:45px;
+    height:45px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+}
+
+#print{
+    top:80px;
+}
+
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroule li {
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    left: 60px;
+    margin-right: 10px;
+    width: 45px;
+    
+}
+#menu a {
+    text-decoration: none;
+    display: block;
+    color:#000;
+}
+#menu-deroule {
+    position: absolute;
+    z-index: 1000;
+    display:none;
+}
+
+
+#chrono{
+    
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    right: 25%;
+    left: 25%;
+    top:10px;
+    color:#fff;
+    background-color: rgba(88, 77, 92,0.5);
+    border-radius: 10px;
+}
+
+.carousel-item:active{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+.printphoto{
+    width:40%;
+    display: inline-block;
+    margin:30px 30px;
+}
+
+#printphotos{
+    text-align: center;
+}
+
+#album{
+    text-align:center;
+    font-family: 'Arial';
+    color: #584D5C;
+    margin-top: 30px;
+}
+
+#line{
+    border-top: 1px solid #584D5C;
+    margin : 0 350px 0 350px;
+}
