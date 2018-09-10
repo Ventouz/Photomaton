@@ -1,2 +1,0 @@
-# Photomaton
-Projet photomaton
